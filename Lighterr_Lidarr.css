@@ -1,0 +1,567 @@
+* {
+    font-family: 'sys', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important
+}
+
+body,
+html {
+    background: #fff
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #00a65b !important
+}
+
+legend {
+    font-size: 22px !important;
+    text-transform: uppercase
+}
+
+.FieldSet-legend-3x6NF,
+.ImportArtistSelectFolder-header-2hOti {
+    display: block;
+    margin-bottom: 21px;
+    padding: 0;
+    width: 100%;
+    color: #3a3f51;
+    font-size: 22px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.PageHeader-header-1IhlM {
+    background: 0 0;
+    color: #777;
+    height: 80px;
+    margin-bottom: 10px
+}
+
+.PageHeader-logoLink-2zDNw:after {
+    content: 'LIDARR';
+    position: relative;
+    top: -12px;
+    left: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding: 5px 15px;
+    border: 1px solid #00a65b;
+    border-radius: 20px;
+    color: #00a65b;
+    font-weight: 700
+}
+
+.AlbumDetails-title-1z-Vl,
+.ArtistDetails-headerContent-3Edga,
+.IconButton-button-2qiGi,
+.Label-default-2AF1C svg,
+svg {
+    color: #777
+}
+
+.ArtistSearchInput-wrapper-2GOVG {
+    font-size: 120%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 5px 5px 15px;
+    border-radius: 20px;
+    color: #ccc;
+    position: absolute;
+    right: 100px
+}
+
+.ArtistSearchInput-input-1CuLx {
+    margin-left: 8px;
+    width: 300px;
+    border-bottom: none;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    color: #555;
+    transition: border .3s ease-out
+}
+
+.ArtistSearchInput-input-1CuLx::placeholder,
+::placeholder {
+    color: #aaa;
+    opacity: 1
+}
+
+.MenuContent-menuContent-3Zkj4 {
+    background-color: #eee;
+    box-shadow: 0 5px 5px -1px rgba(0, 0, 0, .5)
+}
+
+.MenuItem-menuItem-zB-Up {
+    background-color: #eee;
+    color: #555
+}
+
+.PageToolbar-toolbar-1Lo1N {
+    background: 0 0;
+    color: #777;
+    height: auto;
+    margin-bottom: 10px
+}
+
+.PageToolbarButton-labelContainer-1XS0i {
+    line-height: 18px
+}
+
+.PageToolbarButton-label-10YbS {
+    font-size: 13px;
+    line-height: 18px;
+    white-space: nowrap
+}
+
+.PageToolbarButton-toolbarButton-QiQEt {
+    width: auto
+}
+
+.PageToolbarSeparator-separator-2Aqbm {
+    border-right: 1px solid #000
+}
+
+.PageToolbar-toolbar-1Lo1N button {
+    min-width: 100px
+}
+
+.PageSidebar-sidebarContainer-3Hxpq {
+    background: #f0f0f0;
+    margin: 0 10px 10px 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 5px 5px -4px rgba(0, 0, 0, .2)
+}
+
+.PageSidebar-sidebar-3IOcI {
+    background: 0 0
+}
+
+.PageSidebarItem-isActiveParentLink-2uxKf {
+    background-color: #e4e4e4;
+    color: #555 !important;
+    font-weight: 700
+}
+
+.OverlayScroller-thumb-1Lhfi {
+    border-radius: 0;
+    background: #10131f
+}
+
+.PageSidebarItem-link-TuHn2 {
+    padding: 15px 15px 15px 20px
+}
+
+.PageSidebarItem-isActiveLink-1Hupc {
+    font-weight: 700
+}
+
+.Message-iconContainer-2ZEq_,
+.Message-text-2Llhs {
+    color: #333
+}
+
+.ProgressBar-primary-3YDfb {
+    background: #00a65b !important
+}
+
+.ProgressBar-small-NLk8f {
+    height: 4px
+}
+
+.ArtistIndexPoster-link-2eJ07 {
+    background-color: #fff
+}
+
+.ArtistDetails-poster-2wGUC,
+.ArtistIndexPoster-link-2eJ07 img {
+    border-radius: 6px
+}
+
+.ArtistIndexPoster-nextAiring-1FZy6,
+.ArtistIndexPoster-title-38afV {
+    background: 0 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #555;
+    padding: 0 5px
+}
+
+.ArtistIndexPoster-content-22EcW>div:nth-child(3) {
+    margin-top: 5px
+}
+
+.ArtistIndexPoster-nextAiring-1FZy6 {
+    margin-top: 2px;
+    color: #fff;
+    background-color: orange;
+    border-radius: 6px
+}
+
+.ProgressBar-container-14z4A {
+    margin-top: 5px;
+    border-radius: 2px
+}
+
+.ArtistIndexPoster-controls-17A8w {
+    bottom: 8px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255) !important;
+    transition: .1s ease-out
+}
+
+.ArtistIndexPoster-content-22EcW:hover .ArtistIndexPoster-controls-prEIO {
+    bottom: 10px;
+    opacity: 1;
+    transition: 195ms ease-in
+}
+
+.ArtistIndexPoster-content-22EcW:hover {
+    box-shadow: none
+}
+
+.ArtistIndexPoster-content-22EcW:hover img {
+    width: 102% !important;
+    height: 102% !important;
+    top: -1%;
+    left: -1%;
+    transition: 195ms ease-in;
+    opacity: 1;
+    box-shadow: 0 0 6px #000;
+    filter: none
+}
+
+.ArtistIndexPoster-content-22EcW img {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 195ms ease-out
+}
+
+.ArtistIndexPoster-ended-3HU8-,
+.CalendarDays-days-girjM {
+    border: none
+}
+
+.ArtistIndexPoster-ended-3RrLo::after {
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    content: 'ENDED';
+    background: #c00;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding: 2px 5px 2px 8px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2);
+    transform: rotate(90deg);
+    transition: 195ms ease-out
+}
+
+.ArtistIndexPoster-ended-3RrLo+a img {
+    filter: grayscale(100%);
+    opacity: .5
+}
+
+.ArtistIndexPoster-content-uRtdS:hover .ArtistIndexPoster-ended-3RrLo {
+    opacity: 0;
+    transition: 195ms ease-in
+}
+
+.ArtistIndexPoster-content-uRtdS:hover .ArtistIndexPoster-ended-3RrLo::after {
+    transform: rotate(90deg);
+    top: -40px;
+    opacity: 0;
+    transition: 195ms ease-in
+}
+
+.ProgressBar-success-14T8R {
+    opacity: 0. !important
+}
+
+.EpisodeStatus-center-dvqrc .Label-default-2AF1C,
+.TableRowCell-cell-2fbg4 .Label-default-2AF1C {
+    background-color: #00a65b;
+    padding: 3px 8px;
+    border-radius: 20px !important;
+    color: #fff
+}
+
+.Label-info-3YD3Y {
+    border-color: #00a65b;
+    background-color: #00a65b;
+    color: #fff
+}
+
+.FormLabel-isAdvanced-1glHh::before {
+    content: "‣";
+    padding-right: 10px
+}
+
+.Label-default-2AF1C {
+    border-color: transparent;
+    background-color: transparent;
+    color: #555
+}
+
+.ArtistDetails-backdrop-1bG6J {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-top: 10px;
+    height: calc(100% - 20px);
+    box-shadow: 0 5px 5px -2px rgba(0, 0, 0, .1)
+}
+
+.ArtistDetails-backdropOverlay-s5D6g {
+    background: #fff;
+    opacity: .9
+}
+
+.ArtistDetails-title-1yGfe {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px
+}
+
+.ArtistDetails-headerContent--6xIM {
+    color: #555
+}
+
+.TableRow-row-33xJE:hover {
+    background-color: #eef9ff
+}
+
+.ArtistDetailsSeason-season-3XIYa {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .1)
+}
+
+.ArtistDetailsSeason-actions-3JG21 button svg {
+    font-size: 16px !important;
+    transition: .1s ease-in
+}
+
+.ArtistDetailsSeason-actions-3JG21 button:hover svg {
+    font-size: 100% !important
+}
+
+.PageToolbarButton-toolbarButton-QiQEt svg,
+.ToolbarMenuButton-menuButton-zJT-y svg {
+    font-size: 21px !important;
+    height: 30px !important;
+    position: relative;
+    transition: .1s ease-in
+}
+
+.PageToolbarButton-toolbarButton-QiQEt:hover svg,
+.ToolbarMenuButton-menuButton-zJT-y:hover svg {
+    font-size: 27px !important;
+    transition: .1s ease-in
+}
+
+.Tooltip-tooltipContainer-2693s {
+    background-color: #eee
+}
+
+.IconButton-button-2qiGi:hover,
+.MenuButton-menuButton-3nh0N:hover,
+.PageHeaderActionsMenu-menuButton-2Z-oS:hover,
+.PageJumpBarItem-jumpBarItem-3F58I:hover,
+.PageToolbarButton-toolbarButton-QiQEt:hover,
+svg:hover {
+    color: #00a65b
+}
+
+.fa-stop {
+    color: #c00 !important
+}
+
+.fa-play {
+    color: #0c0 !important
+}
+
+.fa-exclamation-triangle {
+    color: orange !important
+}
+
+.Button-danger-GbXmk,
+.Button-default-2uiHU,
+.Button-warning-1KG7v {
+    margin: 2px
+}
+
+.Button-danger-GbXmk {
+    float: left
+}
+
+.PageContentFooter-contentFooter-3ODMj {
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 5px 5px -4px rgba(0, 0, 0, .2)
+}
+
+.PageJumpBar-jumpBar-3owcF {
+    padding-right: 5px
+}
+
+.PageJumpBarItem-jumpBarItem-3F58I:hover {
+    border: 1px solid #00a65b;
+    border-radius: 20px;
+    background: #f9f9f9
+}
+
+.PageJumpBarItem-jumpBarItem-3F58I {
+    border: none;
+    color: #999
+}
+
+.ModalFooter-modalFooter-1N5Ku,
+.ModalHeader-modalHeader-gpcvG {
+    border-color: #222
+}
+
+.EnhancedSelectInputOption-isSelected-1mRo2 {
+    background: #133
+}
+
+.EnhancedSelectInputOption-option-iwTsL:hover {
+    background: #00a65b
+}
+
+.ArtistIndexOverview-info-Mc4PI {
+    padding: 0 0 0 2rem
+}
+
+.ArtistIndexOverview-container-4LMzH {
+    margin-bottom: 20px;
+    position: relative !important;
+    top: 0 !important
+}
+
+.ArtistIndexOverview-content-3GKJk,
+.ArtistIndexOverview-content-3GKJk a {
+    color: #555 !important
+}
+
+.ArtistDetails-links-2sHA9,
+.ArtistDetails-network-2Ry-k,
+.ArtistDetails-path-2ZNTp,
+.ArtistDetails-qualityProfileName-60zwg,
+.ArtistDetails-sizeOnDisk-lBjcr,
+.ArtistDetails-tags-2iq76 {
+    font-size: 13px
+}
+
+.ArtistDetails-detailsLabel-1L4Oi {
+    margin: 0
+}
+
+.ArtistDetails-overview-TFGN_ {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #444 !important
+}
+
+.ArtistDetails-details-gw2sL {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444 !important
+}
+
+.ArtistDetailsSeason-season-3XIYa {
+    background: 0 0;
+    margin-top: 0
+}
+
+.Label-small-3DzJB {
+    border-radius: 6px !important;
+    padding: 8px 10px
+}
+
+.ArtistIndexFooter-continuing-84F2g {
+    background-color: #00a65b
+}
+
+.AddNewArtist-searchIconContainer-3QAm8,
+.DownloadClients-center-FvACx,
+.Indexers-center-11Csq {
+    background-color: transparent
+}
+
+.ToolbarMenuButton-menuButton-zJT-y {
+    width: auto;
+    margin-top: 0
+}
+
+.ArtistIndexOverviewInfo-infos-aUX5j {
+    display: flex;
+    flex-direction: row;
+    margin-left: -5px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #555 !important
+}
+
+.ArtistIndexOverview-details-2mi3u {
+    display: block
+}
+
+.ArtistIndexOverviewInfoRow-infoRow-9PWaT {
+    flex: none;
+    margin-right: 10px
+}
+
+.Popover-title-326tA,
+.Tooltip-tooltip-3HJXy.Tooltip-default-2NTKh {
+    background: #000 !important
+}
+
+.CheckInput-input-283j3 {
+    border-radius: 5px
+}
+
+.DayOfWeek-dayOfWeek-1iw4D {
+    padding: 6px
+}
+
+.DayOfWeek-isToday-SozUU {
+    background-color: #00a65b;
+    color: #fff
+}
+
+.CalendarDay-day-2TMXA {
+    border-bottom: none;
+    border-left: none
+}
+
+.CalendarEvent-event-3Uyb9 {
+    border-bottom: none;
+    box-shadow: 0 5px 5px -4px rgba(0, 0, 0, .2);
+    margin: 10px 2px;
+    padding: 10px;
+    background: #f9f9f9
+}
+
+.CalendarEvent-missing-1y6vZ {
+    background-color: #fff0f0
+}
+
+.CalendarEvent-unaired-3aHdN {
+    background-color: #f0f0ff
+}
+
+.CalendarEvent-downloaded-2vSrJ {
+    background-color: #f0fff0
+}
+
+.CalendarEvent-unmonitored-Zvc-m * {
+    color: #999
+}
+
+.PageContentBody-innerContentBody-tEszh {
+    padding: 0 20px
+}
